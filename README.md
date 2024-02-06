@@ -1,7 +1,11 @@
 Librobuddy
 ==============================
 
-An AI-driven librarian for everyone
+A book recommendation model that recommends books based on a user's personality. The model is built by utilizing the following technologies:
+
+a) Pytorch 
+b) Sklearn
+c) HuggingFace Transformers
 
 Project Organization
 ------------
