@@ -7,6 +7,14 @@ a) Pytorch
 b) Sklearn
 c) HuggingFace Transformers
 
+Overall Flow:
+
+- Developed a recommendation model based on collaborative filtering using PyTorch. Amazon book review dataset is used for the recommendation engine
+- Used Book Embeddings (latest parameters) to cluster books using K-means clustering
+- Generated each cluster's big-five personality type using a Hugging Face transformer model
+- Used a HuggingFace transformer model to assess a user's big-five personality from 3 - 4 line user bio
+- Matched user's big-five personality to the book clusters and provided top rated books from the cluster that closely matched
+
 Project Organization
 ------------
 
