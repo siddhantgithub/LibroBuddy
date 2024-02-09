@@ -1,4 +1,4 @@
-Librobuddy
+Libro Buddy
 ==============================
 
 A book recommendation model that recommends books based on a user's personality. The model is built by utilizing the following technologies:
@@ -7,6 +7,12 @@ a) Pytorch
 b) Sklearn
 c) HuggingFace Transformers
 
+## Problem
+Recommendation system (especially collaborative filtering based) have the problem of cold start or in other words 
+
+## Solution
+Use user’s personality type to provide book recommendation. 
+
 Overall Flow:
 
 - Developed a recommendation model based on collaborative filtering using PyTorch. Amazon book review dataset is used for the recommendation engine
@@ -14,6 +20,11 @@ Overall Flow:
 - Generated each cluster's big-five personality type using a Hugging Face transformer model
 - Used a HuggingFace transformer model to assess a user's big-five personality from 3 - 4 line user bio
 - Matched user's big-five personality to the book clusters and provided top rated books from the cluster that closely matched
+
+## Libro Buddy Overview
+
+![image](https://github.com/siddhantgithub/LibroBuddy/assets/1327717/c4248330-0571-40ba-9c1e-6ded298001bb)
+
 
 Project Organization
 ------------
